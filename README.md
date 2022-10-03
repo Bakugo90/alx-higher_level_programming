@@ -7,3 +7,21 @@ This repository stores my solutions to the amazing high-level programming projec
 <a target="_blank" href="https://www.alxafrica.com/software-engineering-2022"><img src="https://github.com/Bakugo90/alx-higher_level_programming/blob/main/ALX+PNG.png?raw=true"></a>
 
 </p>
+
+## Table of contents
+- [Requirements](#requirements)
+- [Projects](#projects)
+- [Usage](#usage)
+- [Contributors](#contributors)
+
+## Requirements
+
+The Python scripts were built with **Python 3.4.3**.
+
+Some scripts need more specific requirements, but these will be shown where they are needed.
+
+## Projects
+Here is the complete list of projects in this repository, each project has its description in its respective folder.
+
+* [0x00. Python - Hello, World](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world)
+* [0x01. Python - if/else, loops, functions](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x01-python-if_else_loops_functions)
