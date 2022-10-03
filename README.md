@@ -4,5 +4,6 @@ This repository stores my solutions to the amazing high-level programming projec
 ---
 
 <p align="center">
-<a target="_blank" href="https://www.alxafrica.com/software-engineering-2022"><img src="https://images.app.goo.gl/gwiHpHdNtNh6c3R6A"></a>
+<a target="_blank" href="https://github.com/Bakugo90/alx-higher_level_programming/main/holby.jpg?raw=true"></a>
+
 </p>
