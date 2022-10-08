@@ -33,7 +33,7 @@ This program will assign a random signed number to the variable number each time
         * if the number is less than 0: `is negative`
     * followed by a new line
 
-**Solution:** [0-positive_or_negative.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/0-positive_or_negative.py)
+**Solution:** [0-positive_or_negative.py](https://github.com/Bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/0-positive_or_negative.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ ./0-positive_or_negative.py 
@@ -72,7 +72,7 @@ This program will assign a random signed number to the variable number each time
         * if the last digit is less than 6 and not 0: the string `and is less than 6 and not 0`
     * followed by a new line
 
-**Solution:** [1-last_digit.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/1-last_digit.py)
+**Solution:** [1-last_digit.py](https://github.com/Bakugo90/holbertonschool-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/1-last_digit.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ ./1-last_digit.py
