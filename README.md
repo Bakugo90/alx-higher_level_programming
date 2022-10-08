@@ -16,7 +16,7 @@ This repository stores my solutions to the amazing high-level programming projec
 
 ## Requirements
 
-The Python scripts were built with **Python 3.4.3**.
+The Python scripts were built with **Python 3.10.7**.
 
 Some scripts need more specific requirements, but these will be shown where they are needed.
 
