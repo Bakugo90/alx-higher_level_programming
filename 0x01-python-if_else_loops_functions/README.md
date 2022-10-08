@@ -109,7 +109,7 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 * You are not allowed to store characters in a variable
 * You are not allowed to import any module
 
-**Solution:** [2-print_alphabet.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/2-print_alphabet.py)
+**Solution:** [2-print_alphabet.py](https://github.com/Bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/2-print_alphabet.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ ./2-print_alphabet.py
@@ -126,7 +126,7 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 * You are not allowed to store characters in a variable
 * You are not allowed to import any module
 
-**Solution:** [3-print_alphabt.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/3-print_alphabt.py)
+**Solution:** [3-print_alphabt.py](https://github.com/Bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/3-print_alphabt.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ ./3-print_alphabt.py
@@ -142,7 +142,7 @@ Write a program that prints all numbers from `0` to `98` in decimal and in hexad
 * You are not allowed to store numbers or strings in a variable
 * You are not allowed to import any module
 
-**Solution:** [4-print_hexa.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/4-print_hexa.py)
+**Solution:** [4-print_hexa.py](https://github.com/Bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/4-print_hexa.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ ./4-print_hexa.py
@@ -184,7 +184,7 @@ Write a program that prints numbers from `0` to `99`.
 * You are not allowed to store numbers or strings in a variable
 * You are not allowed to import any module
 
-**Solution:** [5-print_comb2.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/5-print_comb2.py)
+**Solution:** [5-print_comb2.py](https://github.com/bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/5-print_comb2.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ ./5-print_comb2.py
@@ -207,7 +207,7 @@ Write a program that prints all possible different combinations of two digits.
 * You are not allowed to store numbers or strings in a variable
 * You are not allowed to import any module
 
-**Solution:** [6-print_comb3.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/6-print_comb3.py)
+**Solution:** [6-print_comb3.py](https://github.com/bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/6-print_comb3.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ ./6-print_comb3.py
@@ -225,7 +225,7 @@ Write a function that checks for lowercase character.
 * You are not allowed to import any module
 * You are not allowed to use `str.lower()` and `str.islower()`
 
-**Solution:** [7-islower.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/7-islower.py)
+**Solution:** [7-islower.py](https://github.com/bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/7-islower.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ cat 7-main.py
@@ -257,7 +257,7 @@ Write a function that prints a string in uppercase followed by a new line.
 * You are not allowed to import any module
 * You are not allowed to use `str.upper()` and `str.isupper()`
 
-**Solution:** [8-uppercase.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/8-uppercase.py)
+**Solution:** [8-uppercase.py](https://github.com/bakgu90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/8-uppercase.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ cat 8-main.py
@@ -281,7 +281,7 @@ Write a function that prints the last digit of a number.
 * Returns the value of the last digit
 * You are not allowed to import any module
 
-**Solution:** [9-print_last_digit.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/9-print_last_digit.py)
+**Solution:** [9-print_last_digit.py](https://github.com/Bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/9-print_last_digit.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ cat 9-main.py
@@ -306,7 +306,7 @@ Write a function that adds two integers and returns the result.
 * Returns the value of `a + b`
 * You are not allowed to import any module
 
-**Solution:** [10-add.py](https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/10-add.py)
+**Solution:** [10-add.py](https://github.com/Bakugo90/alx-higher_level_programming/blob/main/0x01-python-if_else_loops_functions/10-add.py)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x01$ cat 10-main.py
@@ -415,7 +415,7 @@ listint_t *insert_node(listint_t **head, int number);
 ```
 
 ```
-$ amonkeyprogrammer@ubuntu:0x01$ cat linked_lists.c 
+$ amonkeyprogrammer@ubuntu:0x01$ cat linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
@@ -493,7 +493,7 @@ void free_listint(listint_t *head)
 ```
 
 ```
-$ amonkeyprogrammer@ubuntu:0x01$ cat 13-main.c 
+$ amonkeyprogrammer@ubuntu:0x01$ cat 13-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
