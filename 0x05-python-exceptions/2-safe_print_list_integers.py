@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-from typing import Type
-
 
 def safe_print_list_integers(my_list=[], x=0):
     """
