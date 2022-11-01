@@ -1,5 +1,4 @@
-#!/usr/bin/pyhton3
-
+#!/usr/bin/python3
 """Square Class
 
  A square class
@@ -8,14 +7,16 @@
 
 
 class Square:
-    """
-    _init_ method is used to initialize the size values of the square
 
-    """
     def __init__(self, size):
 
-        """
-        __size(int): is a an instance protected attributes
+        """__init__
+
+        The __init__ method initializes the size value
+        of the square.
+
+        Attributes:
+            size (int): The size of the square.
 
         """
         self.__size = size
