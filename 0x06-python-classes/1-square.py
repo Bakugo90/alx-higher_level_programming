@@ -20,7 +20,7 @@ class Square:
             size: size of square
 
         Attributes:
-            size (int): The size of the square.
+            __size (int): protected attributes.
 
         """
         self.__size = size
