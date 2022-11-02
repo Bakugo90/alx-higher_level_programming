@@ -1,12 +1,13 @@
 #!/usr/bin/python3
+"""Square Class
+
+ A square class
+
+"""
 
 
 class Square:
-    """Square Class
 
-    A square class
-
-    """
     def __init__(self, size):
 
         """__init__
@@ -19,4 +20,4 @@ class Square:
 
         """
         self.__size = size
-        """__size: protected instance Attribute"""
+        """size: protected instance Attribute"""
