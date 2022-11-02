@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-"""Square Class
-
- A square class
-
-"""
 
 
 class Square:
+    """Square Class
 
+    A square class
+
+    """
     def __init__(self, size):
 
         """__init__
