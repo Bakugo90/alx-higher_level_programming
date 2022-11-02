@@ -18,8 +18,6 @@ class Square:
         Args:
             size: size of square
 
-        Attributes:
-            __size (int): protected attribute.
-
         """
         self.__size = size
+        """__size: protected instance Attribute"""
