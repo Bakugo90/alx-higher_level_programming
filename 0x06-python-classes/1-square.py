@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""Square Class
-
-A Square Class
-
-"""
 
 
 class Square:
+    """Square class Square that defines a square
 
+        Private instance
+        Instantiation with optiona
+
+    """
     def __init__(self, size):
         """__init__
 
