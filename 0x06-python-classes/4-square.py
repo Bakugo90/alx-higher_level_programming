@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""Sqaure
-A class that defines a sqaure.
+"""Square
+A class that define a square.
 
 """
-
 
 class Square:
     """Defining the init method"""
@@ -22,10 +21,25 @@ class Square:
         """
         if type(size) is not int:
             raise TypeError("size must be an integer")
+
+        if size <= 0:
+            raise ValueError("size must be >= 0")
+
+        self.__size = size
+
+    @property
+    def size(self):
+        return self.__self
+    @size.setter
+    def size(self, size):
+        if type(size) is not int:
+            raise TypeError("size must be an integer")
         if size <= 0:
             raise ValueError("size must be >= 0")
         self.__size = size
 
     def area(self):
-        """This method return the are of square"""
+        """Area return the area of the square"""
         return self.__size ** 2
+
+
