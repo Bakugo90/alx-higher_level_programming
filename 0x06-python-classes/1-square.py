@@ -1,25 +1,9 @@
 #!/usr/bin/python3
-"""Square Class
-
- A square class
-
-"""
+"""tache 2 description d'une class vide"""
 
 
 class Square:
-
+    """ definition de la fonction init de square"""
     def __init__(self, size):
-
-        """__init__
-
-        The __init__ method initializes the size value
-        of the square.
-
-        Args:
-            size: size of square.
-
-        Attributes:
-            size (int): protected attrineutes instances.
-
-        """
+        """init function"""
         self.__size = size
