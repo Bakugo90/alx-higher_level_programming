@@ -1,21 +1,25 @@
 #!/usr/bin/python3
+"""Square Class
+
+ A square class
+
+"""
 
 
 class Square:
-    """Square class Square that defines a square
 
-        Private instance
-        Instantiation with optiona
-
-    """
     def __init__(self, size):
+
         """__init__
 
         The __init__ method initializes the size value
         of the square.
 
+        Args:
+            size: size of square.
+
         Attributes:
-            size (int): The size of the square.
+            size (int): protected attrineutes instances.
 
         """
         self.__size = size
