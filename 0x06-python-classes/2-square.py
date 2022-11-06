@@ -7,7 +7,7 @@ A Square Class
 
 
 class Square:
-
+    """Defining the init function"""
     def __init__(self, size=0):
         """__init__
 
