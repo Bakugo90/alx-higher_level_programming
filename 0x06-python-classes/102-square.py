@@ -33,11 +33,26 @@ class Square:
             self.__size = value
         return self.__size
 
-    def my_print(self):
-        """printf function"""
-        if self.__size == 0:
-            print()
-        for i in range(self.__size):
-            for j in range(self.__size):
-                print("#", end="")
-            print()
+    def __eq__(self, s):
+        """equals"""
+        return self.area == s.area
+
+    def __lt__(self, s):
+        """strict sup"""
+        return self.area < s.area
+
+    def __le__(self, s):
+        """sup or equals"""
+        return self.area <= s.area
+
+    def __ne__(self, s):
+        """negative"""
+        return self.area != s.area
+
+    def __gt__(self, s):
+        """strict inf"""
+        return self.area > s.area
+
+    def __ge__(self, s):
+        """inf or equals"""
+        return self.area >= s.area
