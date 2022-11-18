@@ -1,23 +1,23 @@
 #!/usr/bin/python3
 
-from tkinter.font import ROMAN
+import random
 
+# un program qui renvoie 5 caractère aléatoires entre a à z et 0 à 9
+n = 0
+v = 0
 
-class livres:
-    def __init__(self, name="", auteur="", edition=""):
-        self.name = name
-        self.auteur = auteur
-        self.edition = edition
+randomLetterAndNumber = []
 
-    @property
-    def auteur(self):
-        return self.__auteur
+for i in range(6):
+    randomLowerLetter = chr(random.randrange(ord('a'), ord('z')))
+    randomNumber = random.randrange(0, 10)
 
-    @auteur.setter
-    def auteur(self, auteur=""):
-        if auteur != "Emile Zola":
-            print("Nous ne possédons aucun livre avec ce nom")
-        else:
-            print(" veuillez patienter qq minutes pour votre livre")
+    randomLetterAndNumber.append(randomLowerLetter)
+    randomLetterAndNumber.append(randomNumber)
+    new = set(randomLetterAndNumber)
+    print(random.choice(new), end="")
 
-novel = livres("Les miisérables", "Emile Zola", "kaki")
+print()
+
+for i in range(6):
+    print(random.randint(0, 9), end="")
