@@ -18,7 +18,8 @@ def add_integer(a, b=98):
 
     Returns:
         int: The result of the addition.
-
+    
+    
     """
     if type(a) not in (int, float):
         raise TypeError('a must be an integer')
