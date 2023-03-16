@@ -13,6 +13,8 @@ class Rectangle:
 
     """
 
+    number_of_instances = 0
+
     def __init__(self, width=0, height=0):
         """
 
@@ -24,11 +26,19 @@ class Rectangle:
 
         """
 
-        self.__check_valid_width(width)
-        self.__check_valid_height(height)
-
         self.width = width
         self.height = height
+        Rectangle.number_of_instances += 1
+
+    def __del__(self):
+        """
+
+        Prints a message when an instance of Rectangle is deleted
+
+        """
+
+        Rectangle.number_of_instances -= 1
+        print('Bye rectangle...')
 
     @property
     def width(self):
@@ -163,10 +173,76 @@ class Rectangle:
 
         return False
 
+    def area(self):
+        """
 
-my_rectangle = Rectangle(2, 4)
-print(my_rectangle.__dict__)
+        Computes the area of a Rectangle.
 
-my_rectangle.width = 10
-my_rectangle.height = 3
-print(my_rectangle.__dict__)
+        Returns:
+            int: The area of a Rectangle.
+
+        """
+
+        return self.__width * self.__height
+
+    def perimeter(self):
+        """
+
+        Computes the perimeter of a Rectangle.
+
+        Returns:
+            int: The perimeter of a Rectangle.
+
+        """
+
+        if self.__width == 0 or self.__height == 0:
+            return 0
+
+        return self.__width * 2 + self.__height * 2
+
+    def __draw_rectangle(self):
+        """
+
+        Draw the Rectangle with their size
+
+        Returns:
+            str: `Empty` If width or height is `0`,
+            otherwise returns a string with the Rectangle.
+
+        """
+
+        rect_str = ''
+        w = self.__width
+        h = self.__height
+
+        if w == 0 or h == 0:
+            return rect_str
+
+        for i in range(h):
+            for j in range(w):
+                rect_str += '#'
+
+            if i != h - 1:
+                rect_str += '\n'
+
+        return rect_str
+
+    def __str__(self):
+        """
+
+        Returns a string with the representation of the Rectangle.
+
+        """
+
+        return self.__draw_rectangle()
+
+    def __repr__(self):
+        """
+
+        Returns the representation of the Rectangle.
+
+        """
+        w = str(eval('self.width'))
+        h = str(eval('self.height'))
+
+        return 'Rectangle(' + w + ', ' + h + ')'
